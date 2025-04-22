@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nikhil Babu - Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #eef2f7;
+      color: #333;
+    }
+
+    header {
+      position: relative;
+      background: linear-gradient(135deg, #2c3e50, #1a252f);
+      color: white;
+      padding: 2em 1em;
+      text-align: center;
+    }
+
+    header img {
+      position: absolute;
+      top: 10px;
+      height: 280px; /* Updated logo height */
+    }
+
+    .logo-left {
+      left: 10px;
+    }
+
+    .logo-right {
+      right: 10px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.7em;
+    }
+
+    .subtitle {
+      font-size: 1.3em;
+      color: #f39c12;
+      margin-top: 0.2em;
+    }
+
+    .contact {
+      margin-top: 1em;
+      background-color: #ecf0f1;
+      padding: 1.2em;
+      border-radius: 8px;
+      display: inline-block;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact p {
+      margin: 0.3em 0;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2em auto;
+      padding: 2em;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    section {
+      margin-bottom: 2em;
+    }
+
+    h2 {
+      color: #34495e;
+      border-bottom: 3px solid #f39c12;
+      padding-bottom: 0.3em;
+      margin-top: 1.5em;
+      font-size: 1.5em;
+    }
+
+    ul {
+      padding-left: 1.5em;
+      list-style: none;
+    }
+
+    ul li::before {
+      content: "✦";
+      color: #f39c12;
+      padding-right: 0.5em;
+    }
+
+    .stars {
+      color: #f39c12;
+    }
+
+    .two-columns {
+      display: flex;
+      gap: 2em;
+      flex-wrap: wrap;
+    }
+
+    .column {
+      flex: 1;
+      min-width: 250px;
+      background-color: #f9fbff;
+      padding: 1em;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    .education-entry {
+      margin-bottom: 1.5em;
+      background-color: #f4f7fc;
+      padding: 1em;
+      border-left: 4px solid #f39c12;
+      border-radius: 6px;
+    }
+
+    .education-entry p {
+      margin: 0.3em 0;
+    }
+
+    .buttons-container {
+      text-align: center;
+      margin-top: 2em;
+    }
+
+    .buttons-container button {
+      padding: 12px 25px;
+      background-color: #f39c12;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin: 0.5em;
+    }
+
+    .buttons-container button:hover {
+      background-color: #e67e22;
+    }
+
+    a {
+      color: #e67e22;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://img.jagranjosh.com/images/2023/August/2482023/277529216_3764728203800964_5093767199198794929_n.jpg" class="logo-left" />
+    <img src="https://is5-ssl.mzstatic.com/image/thumb/Purple115/v4/e8/50/67/e850671c-6643-5251-a80f-89223e502eab/source/512x512bb.jpg" class="logo-right" />
+    <h1>Nikhil Babu</h1>
+    <p class="subtitle">Undergraduate Student</p>
+    <div class="contact">
+      <p>📍 Hostel 7 (Drona), MNIT Jaipur, Rajasthan</p> <!-- Updated Location -->
+      <p>📧 <a href="mailto:nikhil.babu24@iimb.ac.in">nikhil.babu24@iimb.ac.in</a></p>
+      <p>📞 6398578819</p>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>
+        Dedicated and versatile student pursuing a Bachelor of Business Administration at IIM Bangalore and a Bachelor of Architecture at MNIT Jaipur.
+        Proven ability to balance rigorous academic demands with effective leadership and problem-solving skills.
+        Possessing strong observational and listening abilities, I excel at understanding complex issues and collaborating with diverse teams to achieve shared goals.
+        Additionally, I am highly proficient in Microsoft Office tools (Excel, PowerPoint, and Word), enabling me to efficiently manage and present information.
+      </p>
+    </section>
+
+    <section class="two-columns">
+      <div class="column">
+        <h2>Personal Information</h2>
+        <p><strong>Address:</strong> Hostel 7 (Drona), MNIT Jaipur, Rajasthan</p> <!-- Updated Location -->
+        <p><strong>Nationality:</strong> — Indian</p>
+        <p><strong>Driving License:</strong> — Available</p>
+        <p><strong>Hobbies:</strong> —Papercraft & 3d Models</p>
+      </div>
+
+      <div class="column">
+        <h2>Languages</h2>
+        <p><strong>Hindi:</strong> <span class="stars">★★★★★</span></p>
+        <p><strong>English:</strong> <span class="stars">★★★★☆</span></p>
+      </div>
+    </section>
+
+    <section class="two-columns">
+      <div class="column">
+        <h2>Skills</h2>
+        <ul>
+          <li>Communication</li>
+          <li>Ability to Work in a Team</li>
+          <li>Microsoft PowerPoint</li>
+          <li>Microsoft Excel</li>
+          <li>Communication Skills</li>
+          <li>Microsoft Office</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="education-entry">
+        <p><strong>April 2020 – March 2021</strong></p>
+        <p>Kendriya Vidyalaya Etah – Secondary School Examination</p>
+        <p>Completed with 87% (P.C.M Stream)</p>
+      </div>
+      <div class="education-entry">
+        <p><strong>April 2022 – March 2023</strong></p>
+        <p>Kendriya Vidyalaya Etah – Senior Secondary Examination</p>
+        <p>Completed with 73.4% (P.C.M Stream)</p>
+      </div>
+      <div class="education-entry">
+        <p><strong>August 2024 – June 2029</strong></p>
+        <p>MNIT Jaipur – Bachelor of Architecture</p>
+        <p>Currently pursuing with an average CGPA of 8.25</p>
+      </div>
+      <div class="education-entry">
+        <p><strong>September 2024 – August 2027</strong></p>
+        <p>IIM Bangalore – Bachelor of Business Administration</p>
+        <p>Currently pursuing with an average CGPA of 8.25</p>
+      </div>
+    </section>
+  </main>
+
+  <div class="buttons-container">
+    <button onclick="window.location.href='tel:+6398578819'">📞 Call Nikhil</button>
+    <button onclick="window.location.href='mailto:nikhil.babu24@gmail.com'">✉ Email Nikhil</button>
+    <button onclick="downloadPDF()">📄 Download as PDF</button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script>
+    function downloadPDF() {
+      const element = document.body;
+      const options = {
+        margin:       0.5,
+        filename:     'Nikhil_Babu_Resume.pdf',
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { scale: 2 },
+        jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
+      };
+      html2pdf().set(options).from(element).save();
+    }
+  </script>
+</body>
+</html>
